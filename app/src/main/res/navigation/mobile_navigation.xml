@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="itdp.flockcorp.duckuniversity.ui.homeschedule.HomeFragment"
+        android:label="@string/menu_homeSchedule"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_addSchedule"
+        android:name="itdp.flockcorp.duckuniversity.ui.addschedule.AddScheduleFragment"
+        android:label="@string/menu_addSchedule"
+        tools:layout="@layout/fragment_add_schedule" />
+
+    <fragment
+        android:id="@+id/nav_updateSchedule"
+        android:name="itdp.flockcorp.duckuniversity.ui.updateschedule.UpdateScheduleFragment"
+        android:label="@string/menu_updateSchedule"
+        tools:layout="@layout/fragment_update_schedule" />
+
+    <fragment
+        android:id="@+id/nav_deleteSchedule"
+        android:name="itdp.flockcorp.duckuniversity.ui.deleteschedule.DeleteScheduleFragment"
+        android:label="@string/menu_deleteSchedule"
+        tools:layout="@layout/fragment_delete_schedule" />
+
+</navigation>

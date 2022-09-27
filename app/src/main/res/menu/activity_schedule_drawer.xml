@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/menu_homeSchedule" />
+        <item
+            android:id="@+id/nav_addSchedule"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/menu_addSchedule" />
+        <item
+            android:id="@+id/nav_updateSchedule"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/menu_updateSchedule" />
+        <item
+            android:id="@+id/nav_deleteSchedule"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/menu_deleteSchedule" />
+    </group>
+
+</menu>
